@@ -1,516 +1,0 @@
-Dependencies for Project 'LoRa-WAN-Node', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Main.cpp)(0x5798585A)(--cpp -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc-D__UVISION_VERSION="520" -D_RTE_ -DEFM32GG980F1024 -DEFM32GG980F1024-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5735B544)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\em_device.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg980f1024.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735B542)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\system_efm32gg.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_aes.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_hc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_diep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_doep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_msc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_emu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_cmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_st.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_buf.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_letimer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_ebi.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer_cc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_acmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_i2c.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio_p.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_vcmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_leuart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_pcnt.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_adc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dac.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lcd.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc_ret.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_wdog.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_etm.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_descriptor.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_devinfo.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_romtable.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_calibrate.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_signals.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmareq.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmactrl.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_uart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_ports.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_pins.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_chip.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_system.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE6280)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_cmu.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_assert.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_bus.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_gpio.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_usart.h)(0x56BAFDE2)
-I (RingBuffer.h)(0x575FF340)
-I (LoRa.h)(0x57985D28)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE6282)
-F (.\main.c)(0x5791D820)()
-F (.\RingBuffer.cpp)(0x575A7FA6)(--cpp -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc-D__UVISION_VERSION="520" -D_RTE_ -DEFM32GG980F1024 -DEFM32GG980F1024-o .\objects\ringbuffer.o --omf_browse .\objects\ringbuffer.crf --depend .\objects\ringbuffer.d)
-I (RingBuffer.h)(0x575FF340)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6282)
-F (.\LoRa.cpp)(0x57985D43)(--cpp -c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc-D__UVISION_VERSION="520" -D_RTE_ -DEFM32GG980F1024 -DEFM32GG980F1024-o .\objects\lora.o --omf_browse .\objects\lora.crf --depend .\objects\lora.d)
-I (LoRa.h)(0x57985D28)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_usart.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\em_device.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg980f1024.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735B542)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\system_efm32gg.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_aes.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_hc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_diep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_doep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_msc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_emu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_cmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_st.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_buf.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_letimer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_ebi.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer_cc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_acmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_i2c.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio_p.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_vcmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_leuart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_pcnt.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_adc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dac.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lcd.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc_ret.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_wdog.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_etm.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_descriptor.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_devinfo.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_romtable.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_calibrate.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_signals.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmareq.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmactrl.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_uart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_ports.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_pins.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE6280)
-I (RingBuffer.h)(0x575FF340)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5735B544)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_cmu.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_assert.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_bus.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_gpio.h)(0x56BAFDE2)
-F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x5735B544)()
-F (RTE\CMSIS\RTX_Conf_CM.c)(0x5784C879)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc-D__UVISION_VERSION="520" -D_RTE_ -DEFM32GG980F1024 -DEFM32GG980F1024-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5735B544)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x5735B544)
-F (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\src\em_assert.c)(0x56BAFDE2)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc-D__UVISION_VERSION="520" -D_RTE_ -DEFM32GG980F1024 -DEFM32GG980F1024-o .\objects\em_assert.o --omf_browse .\objects\em_assert.crf --depend .\objects\em_assert.d)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_assert.h)(0x56BAFDE2)
-F (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\src\em_cmu.c)(0x56BAFDE2)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc-D__UVISION_VERSION="520" -D_RTE_ -DEFM32GG980F1024 -DEFM32GG980F1024-o .\objects\em_cmu.o --omf_browse .\objects\em_cmu.crf --depend .\objects\em_cmu.d)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_cmu.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\em_device.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg980f1024.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735B542)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\system_efm32gg.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_aes.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_hc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_diep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_doep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_msc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_emu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_cmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_st.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_buf.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_letimer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_ebi.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer_cc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_acmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_i2c.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio_p.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_vcmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_leuart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_pcnt.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_adc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dac.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lcd.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc_ret.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_wdog.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_etm.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_descriptor.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_devinfo.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_romtable.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_calibrate.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_signals.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmareq.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmactrl.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_uart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_ports.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_pins.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE6280)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_assert.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_bus.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x56FE6278)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_emu.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_system.h)(0x56BAFDE2)
-F (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\src\em_emu.c)(0x56BAFDE2)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc-D__UVISION_VERSION="520" -D_RTE_ -DEFM32GG980F1024 -DEFM32GG980F1024-o .\objects\em_emu.o --omf_browse .\objects\em_emu.crf --depend .\objects\em_emu.d)
-I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x56FE6278)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_emu.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\em_device.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg980f1024.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735B542)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\system_efm32gg.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_aes.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_hc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_diep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_doep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_msc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_emu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_cmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_st.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_buf.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_letimer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_ebi.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer_cc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_acmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_i2c.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio_p.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_vcmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_leuart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_pcnt.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_adc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dac.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lcd.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc_ret.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_wdog.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_etm.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_descriptor.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_devinfo.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_romtable.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_calibrate.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_signals.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmareq.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmactrl.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_uart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_ports.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_pins.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE6280)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_bus.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_cmu.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_assert.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_system.h)(0x56BAFDE2)
-F (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\src\em_gpio.c)(0x56BAFDE2)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc-D__UVISION_VERSION="520" -D_RTE_ -DEFM32GG980F1024 -DEFM32GG980F1024-o .\objects\em_gpio.o --omf_browse .\objects\em_gpio.crf --depend .\objects\em_gpio.d)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_gpio.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\em_device.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg980f1024.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735B542)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\system_efm32gg.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_aes.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_hc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_diep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_doep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_msc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_emu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_cmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_st.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_buf.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_letimer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_ebi.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer_cc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_acmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_i2c.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio_p.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_vcmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_leuart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_pcnt.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_adc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dac.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lcd.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc_ret.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_wdog.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_etm.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_descriptor.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_devinfo.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_romtable.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_calibrate.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_signals.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmareq.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmactrl.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_uart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_ports.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_pins.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE6280)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_bus.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_assert.h)(0x56BAFDE2)
-F (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\src\em_system.c)(0x56BAFDE2)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc-D__UVISION_VERSION="520" -D_RTE_ -DEFM32GG980F1024 -DEFM32GG980F1024-o .\objects\em_system.o --omf_browse .\objects\em_system.crf --depend .\objects\em_system.d)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_system.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE6280)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\em_device.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg980f1024.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735B542)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\system_efm32gg.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_aes.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_hc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_diep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_doep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_msc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_emu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_cmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_st.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_buf.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_letimer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_ebi.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer_cc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_acmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_i2c.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio_p.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_vcmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_leuart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_pcnt.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_adc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dac.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lcd.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc_ret.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_wdog.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_etm.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_descriptor.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_devinfo.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_romtable.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_calibrate.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_signals.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmareq.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmactrl.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_uart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_ports.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_pins.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_assert.h)(0x56BAFDE2)
-F (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\src\em_usart.c)(0x56BAFDE2)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc-D__UVISION_VERSION="520" -D_RTE_ -DEFM32GG980F1024 -DEFM32GG980F1024-o .\objects\em_usart.o --omf_browse .\objects\em_usart.crf --depend .\objects\em_usart.d)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_usart.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\em_device.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg980f1024.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735B542)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\system_efm32gg.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_aes.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_hc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_diep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_doep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_msc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_emu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_cmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_st.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_buf.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_letimer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_ebi.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer_cc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_acmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_i2c.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio_p.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_vcmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_leuart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_pcnt.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_adc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dac.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lcd.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc_ret.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_wdog.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_etm.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_descriptor.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_devinfo.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_romtable.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_calibrate.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_signals.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmareq.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmactrl.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_uart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_ports.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_pins.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x56FE6280)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_cmu.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_assert.h)(0x56BAFDE2)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc\em_bus.h)(0x56BAFDE2)
-F (RTE\Device\EFM32GG980F1024\RTE_Device.h)(0x5791D820)()
-F (RTE\Device\EFM32GG980F1024\startup_efm32gg.s)(0x56BAFE26)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1" --pd "EFM32GG980F1024 SETA 1"--list .\listings\startup_efm32gg.lst --xref -o .\objects\startup_efm32gg.o --depend .\objects\startup_efm32gg.d)
-F (RTE\Device\EFM32GG980F1024\system_efm32gg.c)(0x56BAFE26)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I D:\Keil\LoRa-WAN-Node\RTE-I D:\Keil\LoRa-WAN-Node\RTE\Device\EFM32GG980F1024-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include-I C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\emlib\inc-D__UVISION_VERSION="520" -D_RTE_ -DEFM32GG980F1024 -DEFM32GG980F1024-o .\objects\system_efm32gg.o --omf_browse .\objects\system_efm32gg.crf --depend .\objects\system_efm32gg.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE6282)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\em_device.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg980f1024.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm3.h)(0x5735B542)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cminstr.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\cmsis_armcc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cmfunc.h)(0x57354E4A)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\system_efm32gg.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_aes.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_hc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_diep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb_doep.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usb.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_msc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_emu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_cmu.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_st.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_buf.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lesense.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_rtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_letimer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_ebi.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_usart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer_cc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_timer.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_acmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_i2c.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio_p.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_gpio.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_vcmp.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_ch.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_leuart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_pcnt.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_adc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dac.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_lcd.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc_ret.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_burtc.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_wdog.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_etm.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dma_descriptor.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_devinfo.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_romtable.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_calibrate.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_prs_signals.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmareq.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_dmactrl.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_uart.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_ports.h)(0x56BAFE26)
-I (C:\Keil_v5\ARM\PACK\Keil\EFM32GGxxx_DFP\2.3.0\Device\EFM32GG\Include\efm32gg_af_pins.h)(0x56BAFE26)
